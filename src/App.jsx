@@ -1,7 +1,13 @@
+import HeroSection from "./Components/HeroSection";
 import Navbar from "./Components/Navbar";
 
 export default function App() {
-  return (
+  return (<>
     <Navbar />
+    <main>
+      <HeroSection />
+    </main>
+  </>
+
   )
 }

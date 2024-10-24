@@ -6,6 +6,7 @@ const Navbar = () => {
     const navDialog = document.getElementById("nav-dialog")
     const handleMenu = () => {
         navDialog.classList.toggle("hidden")
+        // alert()
     }
     return (
         <nav className="px-6 py-4 bg-[#F9F9FF] flex items-center justify-between">
