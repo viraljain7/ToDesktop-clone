@@ -15,7 +15,7 @@ const Navbar = () => {
                 <span className="text-lg font-semibold font-display">ToDesktop</span>
             </a>
             {/* nav-menu-items */}
-            <div id="nav-menu-items" className="hidden md:flex gap-12">
+            <div id="nav-menu-items" className="hidden lg:flex gap-12">
 
                 <a href="#" className="font-semibold hover:text-primary">
                     Pricing
@@ -30,7 +30,7 @@ const Navbar = () => {
                     Login
                 </a>
             </div>
-            <button className="hidden font-semibold   md:flex items-center gap-4 border border-gray-400 px-6 py-2 rounded-lg hover:border-gray-600">
+            <button className="hidden font-semibold   lg:flex items-center gap-4 border border-gray-400 px-6 py-2 rounded-lg hover:border-gray-600">
                 <img src="/electron.svg" alt="ss" />
                 <span>
                     Electron Developer
@@ -38,7 +38,7 @@ const Navbar = () => {
                 <FaArrowRightLong />
             </button>
 
-            <button className="p-2 md:hidden" onClick={handleMenu}>
+            <button className="p-2 lg:hidden" onClick={handleMenu}>
                 <IoMenu className="text-gray-600 text-xl" />
             </button>
 
